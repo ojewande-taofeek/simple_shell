@@ -1,6 +1,4 @@
-# 0x16. C - Simple Shell
-
-
+# 0x16. C - Simple Shell 
 ## Authors
 - Ojewande Taofeek
 - Ukwueze Harrison Chukwuebuka (Halezis)
@@ -86,3 +84,4 @@ At the end of this project, you are expected to be able to explain to anyone, **
 - How to execute another program with the execve system call
 - How to suspend the execution of a process until one of its children terminates
 - What is EOF / “end-of-file”?
+Project duration: 14 days?
