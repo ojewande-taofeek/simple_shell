@@ -14,13 +14,17 @@
 #include <signal.h>
 #include <stdbool.h>
 
+/* HANDLE_SIGNAL */
 void sigint_handler(int sig_int);
+/* _EXIT */
 bool exit_op(char  **argv);
+/* INTERRUPT */
 bool inter_rupt(char **argv, char *buffer);
+/* WHITESPACE */
 size_t white_space(char **argv, char *t_buf);
-char *_strchr(char *s, char c);
 char **check_quote(char *buffer, char **word);
 extern char **environ;
+/* PUT_ERR */
 void put_err(char *prog_name, char *cmd);
 
 /* HELPERS FILE PROTOTYPES */
@@ -48,7 +52,7 @@ char *_strcpy(char *dest, char *src);
 char *_strcat(char *dest, char *src);
 int _strcmp(char *s1, char *s2);
 int _strncmp(char *s1, char *s2, int n);
-
+char *_strchr(char *s, char c);
 
 
 
